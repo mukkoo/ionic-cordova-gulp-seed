@@ -29,6 +29,7 @@ git submodule update --init --recursive
 # install dependencies
 npm install
 npm install -g gulp
+npm install -g plugman
 bower install
 brew install imagemagick # or `apt-get install imagemagick`, if you're on linux
 
