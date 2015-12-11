@@ -5,4 +5,4 @@ runSequence = require 'run-sequence'
 
 
 gulp.task "default", "Build ./#{GLOBALS.BUILD_DIR}/ contents, run browser-sync server and watch for changes (and rebuild & livereload, when something changes).", (cb) ->
-  runSequence "build", ["watch", "serve", "weinre"], cb
+  runSequence "build", ["watch", "serve"], cb
